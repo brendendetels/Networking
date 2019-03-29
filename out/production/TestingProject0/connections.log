@@ -1,0 +1,38 @@
+Nov 14, 2018 10:13:59 PM notifi.app.NoTiFiServer$NoTiFiServerRegister initiateNoTiFiMessages
+INFO: Received: IP: /192.168.56.1 Port: 49997 NoTiFiRegister{messageID=214, address=/127.0.0.1, port=49997}
+
+Nov 14, 2018 10:13:59 PM notifi.app.NoTiFiServer$NoTiFiServerRegister sendACK
+INFO: Sending: IP: /192.168.56.1 Port: 49997 NoTiFiACK{msgId=214, code=5}
+
+Nov 14, 2018 10:14:05 PM notifi.app.NoTiFiServer$NoTiFiServerRegister initiateNoTiFiMessages
+INFO: Received: IP: /192.168.56.1 Port: 49997 NoTiFiDeregister{messageID=102, address=/127.0.0.1, port=49997}
+
+Nov 14, 2018 10:14:05 PM notifi.app.NoTiFiServer$NoTiFiServerRegister sendACK
+INFO: Sending: IP: /127.0.0.1 Port: 49997 NoTiFiACK{msgId=102, code=5}
+
+Nov 14, 2018 10:19:17 PM notifi.app.NoTiFiServer$NoTiFiServerRegister initiateNoTiFiMessages
+INFO: Received: IP: /192.168.56.1 Port: 57578 NoTiFiRegister{messageID=183, address=/127.0.0.1, port=57578}
+
+Nov 14, 2018 10:19:17 PM notifi.app.NoTiFiServer$NoTiFiServerRegister sendACK
+INFO: Sending: IP: /192.168.56.1 Port: 57578 NoTiFiACK{msgId=183, code=5}
+
+Nov 14, 2018 10:19:23 PM notifi.app.NoTiFiServer$NoTiFiServerRegister initiateNoTiFiMessages
+INFO: Received: IP: /192.168.56.1 Port: 57578 NoTiFiDeregister{messageID=67, address=/127.0.0.1, port=57578}
+
+Nov 14, 2018 10:19:23 PM notifi.app.NoTiFiServer$NoTiFiServerRegister sendACK
+INFO: Sending: IP: /127.0.0.1 Port: 57578 NoTiFiACK{msgId=67, code=5}
+
+Nov 14, 2018 10:41:33 PM latitude.app.LatitudeServer$LatitudeMessageProtocol handleLatitudeClient
+INFO: Handling client </192.168.56.1>-<54262> with thread id <16>
+
+Nov 14, 2018 10:41:41 PM latitude.app.LatitudeServer$LatitudeMessageProtocol handleLatitudeClient
+INFO: /192.168.56.1 - 54262: LatitudeNewLocation{location=LocationRecord{userid=45, longitude='40.0', latitude='40.0', locationName='brenden: locn', locationDescription='locd'}}
+
+Nov 14, 2018 10:41:41 PM latitude.app.LatitudeServer$LatitudeMessageProtocol handleLatitudeClient
+INFO: /192.168.56.1 - 54262: mapID=345 - LocationResponse
+User 45:brenden: locn - locd at (40.0, 40.0)
+
+
+Nov 14, 2018 10:41:46 PM latitude.app.LatitudeServer$LatitudeMessageProtocol handleLatitudeClient
+INFO: Client Timed Out </192.168.56.1>-<54262> with thread id <16>
+

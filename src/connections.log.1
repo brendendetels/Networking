@@ -1,0 +1,27 @@
+Nov 14, 2018 10:41:03 PM notifi.app.NoTiFiServer$NoTiFiServerRegister <init>
+SEVERE: The socket could not be opened, or the socket could not bind to the specified local port.
+
+java.net.BindException: Address already in use: Cannot bind
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.bind0(DualStackPlainDatagramSocketImpl.java:84)
+	at java.base/java.net.AbstractPlainDatagramSocketImpl.bind(AbstractPlainDatagramSocketImpl.java:130)
+	at java.base/java.net.DatagramSocket.bind(DatagramSocket.java:394)
+	at java.base/java.net.DatagramSocket.<init>(DatagramSocket.java:244)
+	at java.base/java.net.DatagramSocket.<init>(DatagramSocket.java:301)
+	at java.base/java.net.DatagramSocket.<init>(DatagramSocket.java:273)
+	at notifi.app.NoTiFiServer$NoTiFiServerRegister.<init>(NoTiFiServer.java:48)
+	at latitude.app.LatitudeServer.main(LatitudeServer.java:321)
+
+Nov 14, 2018 10:41:03 PM latitude.app.LatitudeServer main
+SEVERE: Exception in ServerSocket(): Port already in use
+
+java.net.BindException: Address already in use: NET_Bind
+	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+	at latitude.app.LatitudeServer.main(LatitudeServer.java:326)
+
